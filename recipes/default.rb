@@ -17,7 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe "php"
+include_recipe "php5-fpm"
 
 # phpunit/PHPUnit depends on symfony/YAML
 channels = %w{pear.phpunit.de pear.symfony.com}
